@@ -1,0 +1,10 @@
+{
+    "web": {
+      "hosts": {
+        "stage_host": {
+          "ansible_host": "195.2.81.153",
+          "ansible_user": "root"
+        }
+      }
+    }
+  }

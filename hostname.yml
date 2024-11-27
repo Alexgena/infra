@@ -1,0 +1,16 @@
+- name: Change hostname for web hosts
+  hosts: web  
+  vars:
+    new_hostname: stage 
+  tasks:
+    - name: Set hostname
+      ansible.builtin.hostname:
+        name: "{{ new_hostname }}"
+- name: Change hostname for db hosts
+  hosts: db 
+  vars:
+    new_hostname: prod
+  tasks:
+    - name: Set hostname
+      ansible.builtin.hostname:
+        name: "{{ new_hostname }}"

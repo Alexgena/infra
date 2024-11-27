@@ -1,0 +1,10 @@
+{
+    "db": {
+      "hosts": {
+        "production_host": {
+          "ansible_host": "91.142.75.91",
+          "ansible_user": "root"
+        }
+      }
+    }
+  }
